@@ -16,12 +16,9 @@ public class Anggota {
     }
     @Override
     public String toString(){
-        return "Nama "+nama+", ID"+id;
+        return "Nama "+nama+", ID "+id;
     }
 }
-/**
- * InnerAnggota
- */
 class BukuFiksi extends Buku{
     private String genre;
     

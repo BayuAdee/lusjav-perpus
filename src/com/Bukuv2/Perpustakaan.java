@@ -48,7 +48,7 @@ public class Perpustakaan {
                 return;
             }
         }
-        System.out.println("Buku \""+judul+"\"tidak tersedia atau "+" sudah dipinjam");
+        System.out.println("Buku \""+judul+"\" tidak tersedia atau "+" sudah dipinjam");
     }
     public void kembalikanBuku(String judul) {
         for (Buku buku : daftarBuku) {
